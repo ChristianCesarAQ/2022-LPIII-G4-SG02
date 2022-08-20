@@ -16,13 +16,13 @@ public class principal {
 			else
 			    System.out.println("Incorrecto, siga intentando!");
 			
-		}while(vida <7 && !fl);
+		}while(vida <8 && !fl);
 		if (fl == true)
 			System.out.println("Adivinaste!!!");
 		else
 			System.out.println("ups, perdiste...");
-                System.out.println("Gracias");
-
+                System.out.println("Gracias");	
+		System.out.println("codigo agregado desde el remoto")
 	}
 
 }
