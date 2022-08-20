@@ -16,7 +16,7 @@ public class principal {
 			else
 			    System.out.println("Incorrecto, siga intentando!");
 			
-		}while(vida < 5 && !fl);
+		}while(vida < 10 && !fl);
 		if (fl == true)
 			System.out.println("Adivinaste!!!");
 		else
