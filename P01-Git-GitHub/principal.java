@@ -19,10 +19,11 @@ public class principal {
 		}while(vida <8 && !fl);
 		if (fl == true)
 			System.out.println("Adivinaste!!!");
+                        System.out.println("Felicidades, usted es ganador de un TV");
 		else
 			System.out.println("ups, perdiste...");
-                System.out.println("Gracias");	
-		System.out.println("codigo agregado desde el remoto")
+                        System.out.println("Gracias");	
+                        System.out.println("codigo agregado desde el remoto")
 	}
 
 }
