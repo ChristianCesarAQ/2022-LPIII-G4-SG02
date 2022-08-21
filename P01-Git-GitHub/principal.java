@@ -16,9 +16,12 @@ public class principal {
 			else
 			    System.out.println("Incorrecto, siga intentando!");
 			
-		}while(vida <8 && !fl);
+		}while(vida < 3 && !fl);
 		if (fl == true)
 			System.out.println("Adivinaste!!!");
+                        regalo obj = new regalo();
+			obj.elegir(vida);
+
 		else
 			System.out.println("ups, perdiste...");
                 System.out.println("Gracias");	
