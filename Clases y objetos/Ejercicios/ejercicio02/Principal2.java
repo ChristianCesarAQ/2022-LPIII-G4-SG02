@@ -13,6 +13,7 @@ public class Principal2 {
         int mes;
         int anio;
         double altura;
+
         double peso;
 
         // Solictud de datos
