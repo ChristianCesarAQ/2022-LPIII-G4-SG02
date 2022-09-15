@@ -13,15 +13,14 @@ public class EvaluacionCrediticia {
         Trabajo(Datos);
         Sueldo(Datos);
         
-        //Mostramos la tabla, es opcional mostrarla
         imprimirDatosArray(Datos);
  
         //Mostramos los datos
         System.out.println("Porcentaje de hombres: "+porcentajeHombres(Datos) + "%");
         System.out.println("Porcentaje de mujeres: "+porcentajeMujeres(Datos) + "%");
  
-        System.out.println("Porcentaje de hombres que trabajan: "+porcentajeHombresTrabajan(Datos)+"%");
-        System.out.println("Porcentaje de mujeres que trabajan: "+porcentajeMujeresTrabajan(Datos)+"%");
+        System.out.println("Porcentaje de hombres que trabajan: "+porcentajeHombresTrabajan(Datos) + "%");
+        System.out.println("Porcentaje de mujeres que trabajan: "+porcentajeMujeresTrabajan(Datos) + "%");
  
         System.out.println("El sueldo promedio de los hombres que trabajan: "+sueldoPromedioHombres(Datos));
         System.out.println("El sueldo promedio de los mujeres que trabajan: "+sueldoPromedioMujeres(Datos));
@@ -85,9 +84,6 @@ public class EvaluacionCrediticia {
         double porcentaje=(cont*100)/Datos[0].length;
         return porcentaje;
     }
-    
-    
-    
     
     public static double porcentajeHombresTrabajan(int Datos[][]){
         int cont=0;
