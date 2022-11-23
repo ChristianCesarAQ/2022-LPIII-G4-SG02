@@ -8,7 +8,7 @@ public class App {
 			//Agregamos los pares Ordenados
 			dict1.add("user", "Juan");
 			dict1.add("YouTube", "www.youtube.com");
-			dict1.add(72935398, "Percy Carlos Diaz Tupayachi");
+			dict1.add(72935398, "Cristian Aguirre");
 			System.out.println("ADD");
 			System.out.println(dict1);
 			System.out.println(" ");
